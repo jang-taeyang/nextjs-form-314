@@ -2,4 +2,4 @@
 
 For details, please see http://ics-software-engineering.github.io/nextjs-example-form/.
 
-[Experience Next.js Example Form](http://courses.ics.hawaii.edu/ics314s25/morea/nextjs-2/experience-nextjs-example-form.html)
+[Experience Example Form (Next.js)](http://courses.ics.hawaii.edu/ics314s25/morea/nextjs-2/experience-nextjs-example-form.html)
