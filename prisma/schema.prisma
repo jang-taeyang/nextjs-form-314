@@ -40,13 +40,21 @@ enum Major {
   ComputerScience
 }
 
+enum Instructor {
+  Conner
+  Moore
+  Morita
+  Port
+}
+
 model StudentData {
-  id      Int     @id @default(autoincrement())
-  name    String
-  email   String  @unique
-  bio     String?
-  hobbies Hobby[]
-  level   Level
-  gpa     Int
-  major   Major
+  id         Int        @id @default(autoincrement())
+  name       String
+  email      String     @unique
+  bio        String?
+  hobbies    Hobby[]
+  level      Level
+  gpa        Int
+  major      Major
+  instructor Instructor
 }
